@@ -333,10 +333,3 @@ ol
 	font-style: normal;
 }
 
-@media screen and (max-width: 600px) 
-{
-	#container_phone
-	{
-		background-color: red;
-	}
-}
