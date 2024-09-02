@@ -333,23 +333,3 @@ ol
 }
 
 
-
-#container_phone
-{
-	max-width: 600px;
-}
-
-.pageP
-{
-	width: 390px;
-	height: 844px;
-	padding-left: 31px;
-}
-
-@media only screen and (max-width: 1200px)
-{
-	body 
-	{
-		background-color: dark;
-	}
-}
