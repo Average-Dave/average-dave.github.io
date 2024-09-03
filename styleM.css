@@ -17,10 +17,11 @@ body
 	block-size: 100vh;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
-	height: 100vh;
+	display: grid;
+	place-items: center;
 }
 
 #logo
 {
-	padding-left: 50px;
+	
 }
