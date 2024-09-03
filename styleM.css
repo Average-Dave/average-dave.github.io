@@ -1,22 +1,24 @@
-
+html
+{
+	scroll-snap-type: y mandatory;
+}
 body
 {
 	font-family: "Poppins", sans-serif;
-	width: 390px;
-	height: 844px;
+	width: 100vh;
 	margin: 0;
 }
 
 #container
 {
-	scroll-snap-type: y mandatory;
-	overflow-y: scroll;
-	height: 100vh;
+	
 }
 
 .page
 {
+	block-size: 100vh;
 	scroll-snap-align: start;
+	scroll-snap-stop: always;
 	height: 100vh;
 }
 
