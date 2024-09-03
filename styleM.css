@@ -5,7 +5,11 @@ html
 body
 {
 	font-family: "Poppins", sans-serif;
-	
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	background-color: #ECFDF5;
+	overflow-x: hidden;
 	
 }
 
@@ -24,11 +28,22 @@ body
 
 #logo
 {
-	width: 50vh;
-	padding-left: 31px;
-	padding-top: 70px;
+	margin-left: 31px;
+	margin-top: 70px;
 	background-image: url('img/logo.png');
 	background-repeat: no-repeat;
+}
+
+
+#button
+{
+	background-color: #581C87;
+	margin-top: 60px;
+	width: 240px;
+	text-align: center;
+	padding: 24px 0;
+	border-radius: 10px;
+	
 }
 
 
@@ -41,5 +56,24 @@ h1
 	font-weight: 700;
 	font-style: normal;
 	margin-top: 100px;
+	
+}
+
+h2
+{
+	font-size: 36px;
+	color: #292524;
+	font-family: "Poppins", sans-serif;
+	font-weight: 250;
+	font-style: normal;
+}
+
+.h5
+{
+	font-size: 16px;
+	color: #FAFAF9;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	
 }
