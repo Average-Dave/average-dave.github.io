@@ -5,7 +5,8 @@ html
 body
 {
 	font-family: "Poppins", sans-serif;
-	width: 390px;
+	width: 100%;
+	
 }
 
 #container
@@ -26,4 +27,6 @@ body
 	width: 50%;
 	margin-left: 31px;
 	margin-top: 70px;
+	background-image: url('img/logo.png');
+	background-repeat: no-repeat;
 }
