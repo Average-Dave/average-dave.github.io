@@ -12,7 +12,8 @@ body
 
 #container_desktop
 {
-	background-color: #ECFDF5 !important;
+	background-color: #ECFDF5;
+	background-color: var(--background-color, #ECFDF5);
 	min-width: 600px;
 	
 }

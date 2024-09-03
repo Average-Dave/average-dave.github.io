@@ -24,6 +24,11 @@
 <body>
 
 	<script src="flickity.pkgd.min.js"></script>
+	<script>
+	if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.style.setProperty('--background-color', '#ECFDF5');
+	}
+	</script>
 
 
 	<div id="container_desktop">
